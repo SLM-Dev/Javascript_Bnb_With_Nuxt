@@ -8,9 +8,13 @@
 
 <script>
 import homes from '~/data/homes'
+
+// Part of Nuxt Config
 // import HomeCard from '~/components/HomeCard'
 
 export default{
+
+    // Moved to Nuxt.config
     // components: {
     //     HomeCard,
     // },
