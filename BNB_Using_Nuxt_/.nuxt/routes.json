@@ -1,5 +1,12 @@
 [
   {
+    "name": "home-id",
+    "path": "/home/:id?",
+    "component": "/workspaces/Javascript_Bnb_With_Nuxt/BNB_Using_Nuxt_/pages/home/_id.vue",
+    "chunkName": "pages/home/_id",
+    "_name": "_8b4873cc"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/workspaces/Javascript_Bnb_With_Nuxt/BNB_Using_Nuxt_/pages/index.vue",

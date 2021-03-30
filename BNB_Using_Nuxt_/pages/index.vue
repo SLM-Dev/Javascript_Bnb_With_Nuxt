@@ -9,15 +9,20 @@
 <script>
 import homes from '~/data/homes'
 
-// Part of Nuxt Config
-// import HomeCard from '~/components/HomeCard'
-
 export default{
+// Meta tag Section Start
+head(){
+        return {
+            title: 'Homepage',
+            meta: [{
+                name: 'description',
+                content: 'This is a test',
+                hid: 'description'
+            }]
+        }
+    },
+    /// Meta tag Section End
 
-    // Moved to Nuxt.config
-    // components: {
-    //     HomeCard,
-    // },
     data(){
         return {
             homes: homes.slice(0,3)
